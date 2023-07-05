@@ -1,0 +1,437 @@
+#pagina {
+  height: 100vh;
+  width: auto;
+  overflow-y: scroll;
+  background-color: black;
+}
+
+/* CABECERA */
+#cabecera {
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+  position: sticky;
+  top: 0;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 197, 71);
+}
+
+#cabecera_op1 {
+  display: flex;
+  height: 15vh;
+  width: 40%;
+  justify-content: space-evenly;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#cabecera_op1 h3 {
+  cursor: pointer;
+}
+#cabecera_logoEspacio {
+  display: flex;
+  justify-content: center;
+  height: 15vh;
+  width: 20%;
+}
+#imgLogo {
+  height: 30vh;
+  width: 30vh;
+}
+
+#cabecera_op2 {
+  display: flex;
+  height: 15vh;
+  width: 40%;
+  justify-content: space-evenly;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* CABECERA MOBILE*/
+#cabeceraMobile {
+  background-color: black;
+  color: white;
+  display: none;
+  position: sticky;
+  top: 0;
+}
+#menuMobile {
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  width: 100%;
+  top: -2000px;
+}
+.fa-bars {
+  font-size: 50px;
+  cursor: pointer;
+}
+#cabeceraMobile_op1 h3 {
+  cursor: pointer;
+}
+#cabeceraMobile_op2 h3 {
+  cursor: pointer;
+}
+
+/* DIV 1*/
+#div1 {
+  height: 65vh;
+  width: 100%;
+  background-image: url(https://wallpapercave.com/wp/DV97m5C.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* DIV 2*/
+#div2 {
+  height: 65vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  overflow-y: auto;
+}
+#div2__cont1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+#imgBrazo {
+  height: 50vh;
+  width: 50vh;
+  border-radius: 100%;
+}
+#div2__cont2 {
+  height: 55vh;
+  width: 60%;
+}
+#div2__cont2__h2 {
+  color: rgb(209, 153, 47);
+}
+#div2__cont2__texto {
+  font-size: larger;
+  color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* DIV 2 Mobile         */
+#div2_Mobile {
+  display: none;
+  height: 135vh;
+  width: 100%;
+  background-color: rgb(2, 2, 2);
+  flex-direction: column;
+}
+#div2_Mobile__cont1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+#imgBrazoMob {
+  height: 50vh;
+  width: 50vh;
+  border-radius: 100%;
+}
+#div2_Mobile__cont2 {
+  height: 55vh;
+  width: 100%;
+}
+#div2_Mobile__cont2__h2 {
+  color: rgb(209, 153, 47);
+  display: flex;
+  justify-content: center;
+}
+#div2_Mobile__cont2__texto {
+  font-size: larger;
+  color: rgb(255, 255, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* DIV 3 */
+#div3 {
+  height: 45vh;
+  width: 100%;
+  background-color: rgb(28, 28, 28);
+  margin-bottom: 10px;
+}
+#div3__cont1 {
+  display: flex;
+  flex-direction: column;
+}
+#div3__cont1__h2 {
+  color: rgb(209, 153, 47);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#div3__cont2 {
+  display: flex;
+  justify-content: space-between;
+}
+.artistas {
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-bottom: solid rgb(255, 255, 255);
+}
+#imgArtistas {
+  height: 30vh;
+  width: 30vh;
+  border-radius: 100%;
+}
+#div3__cont2__cont2 {
+  margin-left: 10px;
+}
+#div3__cont2__cont4 {
+  margin-right: 10px;
+}
+/* DIV 3 Mobile */
+#div3_Mobile {
+  display: none;
+  height: 190vh;
+  width: 100%;
+  background-color: rgb(28, 28, 28);
+  margin-bottom: 10px;
+}
+#div3_Mobile__cont1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#div3_Mobile__cont1__h2 {
+  color: rgb(209, 153, 47);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#div3_Mobile__cont2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.artistasMob {
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 40px;
+  flex-direction: column;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-bottom: solid rgb(255, 255, 255);
+}
+#imgArtistasMob {
+  height: 30vh;
+  width: 30vh;
+  border-radius: 100%;
+}
+
+/* DIV 4 */
+#div4 {
+  height: 158vh;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+#div4__cont1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#div4__cont1__h2 {
+  color: rgb(209, 153, 47);
+}
+#div4__cont2__grilla {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.celda {
+  border: solid rgb(0, 0, 0);
+  width: auto;
+  height: 50vh;
+}
+#tattoo1 {
+  width: 100%;
+  height: 100%;
+}
+#tattoo2 {
+  width: 100%;
+  height: 100%;
+}
+#tattoo1 {
+  width: 100%;
+  height: 100%;
+}
+#tattoo3 {
+  width: 100%;
+  height: 100%;
+}
+#tattoo4 {
+  width: 100%;
+  height: 100%;
+}
+#tattoo5 {
+  width: 100%;
+  height: 100%;
+}
+#tattoo6 {
+  width: 100%;
+  height: 100%;
+}
+#tattoo7 {
+  width: 100%;
+  height: 100%;
+}
+#tattoo8 {
+  width: 100%;
+  height: 100%;
+}
+#tattoo9 {
+  width: 100%;
+  height: 100%;
+}
+/* DIV 5 */
+#div5 {
+  height: 65vh;
+  width: 100%;
+  background-color: rgb(28, 28, 28);
+}
+#div5__cont1 {
+  display: flex;
+  flex-direction: column;
+}
+#div5__cont1__h2 {
+  color: rgb(209, 153, 47);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#div5__cont2 {
+  display: flex;
+  justify-content: space-between;
+}
+#div5__cont2__div1 {
+  width: 28%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1%;
+}
+#mapa {
+  width: 100%;
+  height: 45vh;
+}
+#div5__cont2__div2 {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+#msj {
+  grid-area: 3 / 1 / span 3 / span 2;
+}
+.form-control {
+  font-size: 4vh;
+}
+/* DIV 6 */
+#div6 {
+  height: 60vh;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+#div6__cont1 {
+  display: flex;
+  flex-direction: column;
+}
+/* DIV 6 */
+#div6 {
+  height: 30vh;
+  width: 100%;
+  background-color: rgb(33, 33, 33);
+}
+#div6__cont1 {
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 30px;
+}
+#div6__cont1 i {
+  cursor: pointer;
+}
+#div6__cont2 {
+  margin-top: 50px;
+}
+#div6__cont2 ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  list-style-type: none;
+}
+#div6__cont2 ul li {
+  cursor: pointer;
+}
+#div6__cont3 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+/* BARRA ESCROLLEADORA*/
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(216, 113, 113);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+@media only screen and (max-width: 1000px) {
+  #cabecera {
+    display: none;
+  }
+  #div2 {
+    display: none;
+  }
+  #div3 {
+    display: none;
+  }
+
+  #cabeceraMobile {
+    display: block;
+  }
+  #div2_Mobile {
+    display: flex;
+  }
+  #div3_Mobile {
+    display: block;
+  }
+}
